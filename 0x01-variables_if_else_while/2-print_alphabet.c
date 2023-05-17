@@ -5,9 +5,9 @@
  * Discription: Print the alphabet in lowercase.using 'putchar function'.
  * Return: 0
  */
-int main(0)
+int main(void)
 {
-	char c = 'a';
+	c = 'a';
 
 	while (c <= 'z')
 	{
