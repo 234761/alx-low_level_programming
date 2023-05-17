@@ -7,8 +7,7 @@
  */
 int main(void)
 {
-	char c = 'a'
-	char C = 'A'
+	char c = 'a', C = 'A'
 
 	while (c <= 'z', C <= 'Z')
 	{
