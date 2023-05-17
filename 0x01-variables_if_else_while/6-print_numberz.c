@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+/**
+ * main - main void
+ * Discription: prints all single digit numbers of base 10 starting from 0
+ * using 'putchar func'
+ * Return: 0
+ */
+int main(void)
+{
+	int i;
+
+	for (i = 0; i < 10; i++) 
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
+
+	return (0);
+}
