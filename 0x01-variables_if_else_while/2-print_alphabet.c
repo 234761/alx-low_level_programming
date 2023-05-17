@@ -7,7 +7,7 @@
  */
 int main(0)
 {
-	c = 'a';
+	char c = 'a';
 
 	while (c <= 'z')
 	{
