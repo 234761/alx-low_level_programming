@@ -4,17 +4,17 @@
  * main - main block
  * Discription: print all single digit numbers of base 10
  * strating from 0
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
-	int i = 0;
+	int i; 
 
-	while (i < 10)
-	{  
-		i++;
+	for (i = 0; i < 10; i++)
+	{      
+		printf("%i", i);
 	}
-	printf("%i \n", i);
+	putchar('\n');
 
 	return (0);
 }
