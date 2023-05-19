@@ -13,9 +13,9 @@ int main(void)
 
 	while (i < 100)
 	{
-	j = i / 10;
+	j = i % 10;
 	k = i / 10;
-	if (j == k)
+	if (j < k)
 	{
 	putchar(i + '0');
 	putchar(i + '0');
